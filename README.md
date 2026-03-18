@@ -137,12 +137,7 @@ Each question is answered with **SQL + a clear business insight** explaining wha
 ```
 
 ---
-
-## 📸 Dashboard Preview
-
-![Samsung Pakistan Dashboard](Samsung%20Pakistan%20Sales%20Analysis%20Dashboard.jpg)
-
----
+--
 
 ## 🚀 Future Enhancements
 
