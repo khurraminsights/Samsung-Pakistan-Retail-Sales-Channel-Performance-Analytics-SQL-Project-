@@ -3,100 +3,6 @@
 <img width="2752" height="1536" alt="Cover Image" src="https://github.com/user-attachments/assets/443746ed-2761-4fee-9d08-bcff76d0710c" />
 
 
-##  Overview
-This project is an **end-to-end SQL-based data analytics case study** that simulates a real-world **Samsung Pakistan retail sales environment**.  
-The objective is to demonstrate how raw transactional data can be transformed into **meaningful business insights** using **SQL and analytical thinking**.
-
-The project focuses not only on writing SQL queries, but also on **understanding business problems, designing data models, and communicating insights effectively**, just like in a real Data Analyst role.
-
----
-
-## Business Context
-Samsung Pakistan operates a nationwide retail network selling **mobile phones and home appliances** through:
-- Samsung Experience Stores  
-- Authorized Distributors  
-- Online Retail Partners  
-
-Despite having large volumes of sales data, the business lacks clear visibility into:
-- City-wise and channel-wise sales performance  
-- Product profitability and return trends  
-- Customer retention behavior  
-- Store-level target achievement  
-
-This project addresses these gaps using **SQL-driven analysis**.
-
----
-
-##  Project Objectives
-- Analyze sales performance across cities and sales channels  
-- Identify top-performing and underperforming products and stores  
-- Evaluate customer purchasing and repeat-buying behavior  
-- Analyze promotion effectiveness and return trends  
-- Compare actual sales against defined store targets  
-
----
-
-##  Data Model & Dataset
-
-### Database Design
-The project uses a **normalized relational database** consisting of **7 tables**:
-- Stores  
-- Products  
-- Customers  
-- Sales  
-- Returns  
-- Sales Targets  
-- Promotions  
-
-A complete **ER Diagram** is included to show relationships between entities.
-
-<img width="2752" height="1536" alt="Samsung_Pakistan_ER_Diagram" src="https://github.com/user-attachments/assets/6c7fd747-d931-44d7-830b-6d99787b39b8" />
-
-### Dataset
-- Simulated (dummy) but realistic retail data  
-- Covers **6 months** of transactions  
-- Includes multiple Pakistani cities and Samsung-like products  
-- Designed specifically for analytical use cases  
-
----
-
-##  Business Questions Answered
-The analysis answers **10 real business questions**, including:
-- Which cities generate the highest sales revenue?  
-- Which products are the top revenue generators?  
-- Which stores fail to meet sales targets?  
-- What is the monthly sales trend?  
-- Which stores have the highest return rates?  
-- How much does each sales channel contribute to total revenue?  
-- Did promotions increase sales volume?  
-- How does cumulative sales grow over time?  
-
-Each question is answered using SQL and followed by **clear business insights**.
-
----
-
-##  Analytical Approach
-- SQL Server used for analysis  
-- JOINs to combine multiple business entities  
-- Aggregate functions for KPIs and trends  
-- Subqueries and CTEs for complex logic  
-- Window functions for ranking, percentages, and cumulative analysis  
-
-Each SQL query is followed by **“What happened” and “Why it matters”** insights rather than technical explanations.
-
----
-
-##  Key Insights
-- Karachi is the highest revenue-generating city  
-- Experience Stores contribute the largest share of total revenue  
-- Premium products drive higher revenue but require careful pricing control  
-- Several distributor stores consistently miss sales targets  
-- Promotions increase sales volume but may impact profit margins  
-- Certain stores and products show higher return rates  
-- Overall sales show a positive cumulative growth trend  
-
----
-
 ##  Executive Dashboard
 An **executive-style dashboard** is included to visually summarize:
 
@@ -104,35 +10,164 @@ An **executive-style dashboard** is included to visually summarize:
 
 The dashboard demonstrates how insights would be presented to **business stakeholders and management**.
 
----
 
-##  Tools & Skills Demonstrated
-- SQL Server  
-- Data Modeling & ER Diagrams  
-- Advanced SQL (CTEs, Subqueries, Window Functions)  
-- Business Analytics  
-- Insight Storytelling  
-- Dashboard Design  
+# 📱 Samsung Pakistan – Retail Sales Channel Performance Analytics
+
+> **Role:** Data Analyst | **Tools:** SQL Server · Power BI · DAX | **Domain:** Retail Analytics · Consumer Electronics
 
 ---
 
-##  Conclusion
-This project demonstrates the ability to:
-- Translate raw data into actionable business insights  
-- Apply advanced SQL techniques to real-world problems  
-- Design and analyze relational data models  
-- Communicate analytical findings clearly and professionally  
+## 📌 Project Overview
 
-The project reflects how a **Data Analyst works in a real corporate environment**.
+An end-to-end SQL-based data analytics case study simulating a **real-world Samsung Pakistan retail sales environment**. The project transforms raw transactional data into meaningful business insights — covering city-wise performance, channel revenue, product profitability, store target achievement, and customer retention behavior.
+
+This project goes beyond writing SQL queries — it focuses on **understanding business problems, designing relational data models, and communicating insights** exactly as a Data Analyst would in a corporate environment.
 
 ---
 
-## Future Enhancements
-- Build a fully interactive Power BI dashboard  
-- Use real transactional data for deeper analysis  
-- Extend analysis to forecasting and predictive analytics  
+## 🎯 Business Problem
+
+Samsung Pakistan operates a nationwide retail network across 3 sales channels:
+
+- 🏪 Samsung Experience Stores
+- 🤝 Authorized Distributors
+- 🌐 Online Retail Partners
+
+Despite large volumes of sales data, the business lacked visibility into:
+
+- **City-wise and channel-wise** sales performance
+- **Product profitability** and return trends
+- **Customer retention** and repeat-buying behavior
+- **Store-level target achievement** vs actual sales
 
 ---
 
-If you are a recruiter, interviewer, or data professional reviewing this project, feedback is always welcome.  
-Thank you for taking the time to explore this repository.
+## 🗄️ Data Model & Architecture
+
+Designed a **normalized relational database** with 7 tables optimized for analytical queries:
+
+| Table | Description |
+|---|---|
+| `Stores` | Store profiles, location, and channel type |
+| `Products` | Product catalog with categories and pricing |
+| `Customers` | Customer profiles and purchase history |
+| `Sales` | Transactional sales records |
+| `Returns` | Product return records and reasons |
+| `Sales_Targets` | Store-level monthly sales targets |
+| `Promotions` | Promotion campaigns and discount details |
+
+> 📊 Full **ER Diagram** included in the repository showing all table relationships.
+
+---
+
+## ❓ Business Questions Answered
+
+| # | Business Question |
+|---|---|
+| 1 | Which cities generate the highest sales revenue? |
+| 2 | Which products are the top revenue generators? |
+| 3 | Which stores consistently fail to meet sales targets? |
+| 4 | What is the monthly sales trend over 6 months? |
+| 5 | Which stores have the highest product return rates? |
+| 6 | How much does each sales channel contribute to total revenue? |
+| 7 | Did promotions actually increase sales volume? |
+| 8 | How does cumulative sales grow over time? |
+| 9 | Which products show the highest return rates? |
+| 10 | Who are the top repeat-buying customers? |
+
+Each question is answered with **SQL + a clear business insight** explaining what happened and why it matters.
+
+---
+
+## 🔍 Key Findings
+
+- 🏙️ **Karachi** is the highest revenue-generating city across all channels
+- 🏪 **Experience Stores** contribute the largest share of total revenue
+- 💎 **Premium products** drive higher revenue but require careful pricing control to protect margins
+- ⚠️ **Several distributor stores** consistently miss monthly sales targets
+- 📣 **Promotions increase sales volume** but show signs of margin pressure — ROI review needed
+- 🔄 **Certain stores and products** show disproportionately high return rates
+- 📈 **Overall cumulative sales** show a positive growth trend across the 6-month period
+
+---
+
+## 💡 Business Recommendations
+
+| Area | Recommendation |
+|---|---|
+| Channel Strategy | Expand Experience Store network in high-revenue cities |
+| Target Achievement | Audit and support underperforming distributor stores |
+| Pricing | Review premium product pricing to balance volume and margin |
+| Promotions | Measure promotion ROI before scaling campaigns |
+| Returns | Investigate high-return stores and products for quality or process issues |
+| Customer Retention | Launch loyalty program for top repeat-buying customers |
+
+---
+
+## 🛠️ Technical Approach
+
+### SQL Server
+- **JOINs** across 7 normalized tables for unified business analysis
+- **Aggregate Functions** for city-wise, channel-wise, and product-wise KPIs
+- **CTEs** for modular, readable query logic
+- **Subqueries** for target vs actual comparison and return rate analysis
+- **Window Functions** for ranking, cumulative sales, and percentage contribution
+- Each query followed by **"What happened"** and **"Why it matters"** business commentary
+
+### Power BI
+- **Executive-style dashboard** for stakeholder-ready visual presentation
+- KPI cards for revenue, returns, target achievement, and channel contribution
+- Bar and line charts for trend analysis and city-wise comparison
+
+---
+
+## 📈 Dataset Details
+
+| Property | Detail |
+|---|---|
+| Data Type | Simulated but realistic retail data |
+| Time Period | 6 months of transactions |
+| Geography | Multiple Pakistani cities |
+| Products | Samsung-style mobile phones and home appliances |
+| Purpose | Designed specifically for analytical use cases |
+
+---
+
+## 📁 Repository Structure
+```
+📂 Samsung-Pakistan-Retail-Sales-Channel-Performance-Analytics
+├── 📄 Samsung_Pakistan.sql              — Full SQL scripts and queries
+├── 🖼️  Samsung_Pakistan_ER_Diagram.png   — Entity Relationship Diagram
+├── 📊 Samsung_Dashboard.png             — Executive dashboard preview
+├── 🖼️  Cover Image.jpg                   — Project cover
+└── 📄 README.md                         — Project documentation
+```
+
+---
+
+## 📸 Dashboard Preview
+
+![Samsung Pakistan Dashboard](Samsung%20Pakistan%20Sales%20Analysis%20Dashboard.jpg)
+
+---
+
+## 🚀 Future Enhancements
+
+- [ ] Build a fully interactive **Power BI dashboard** with drill-through filters
+- [ ] Extend analysis to **forecasting and predictive analytics**
+- [ ] Integrate **real transactional data** for deeper market insights
+- [ ] Add **customer segmentation** using RFM analysis
+
+---
+
+## 👤 About
+
+**Khurram Naveed** — Data Analyst specializing in SQL, Power BI, and business intelligence.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/khurramnaveed3233)
+[![GitHub](https://img.shields.io/badge/GitHub-Portfolio-black?logo=github)](https://github.com/Khurramnaveed3233)
+[![Email](https://img.shields.io/badge/Email-Contact-red?logo=gmail)](mailto:khurramnaveed4545@gmail.com)
+
+---
+
+> 💼 *This project reflects how a Data Analyst works in a real corporate environment — translating raw data into actionable business insights, applying advanced SQL to real-world problems, and communicating findings clearly to stakeholders.*
