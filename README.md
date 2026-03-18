@@ -10,13 +10,6 @@ An **executive-style dashboard** is included to visually summarize:
 
 The dashboard demonstrates how insights would be presented to **business stakeholders and management**.
 
-
-# 📱 Samsung Pakistan – Retail Sales Channel Performance Analytics
-
-> **Role:** Data Analyst | **Tools:** SQL Server · Power BI · DAX | **Domain:** Retail Analytics · Consumer Electronics
-
----
-
 ## 📌 Project Overview
 
 An end-to-end SQL-based data analytics case study simulating a **real-world Samsung Pakistan retail sales environment**. The project transforms raw transactional data into meaningful business insights — covering city-wise performance, channel revenue, product profitability, store target achievement, and customer retention behavior.
