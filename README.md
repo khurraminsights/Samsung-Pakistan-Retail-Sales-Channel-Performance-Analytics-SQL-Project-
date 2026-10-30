@@ -2,6 +2,8 @@
 
 # Samsung Pakistan | Retail Sales & Channel Performance Analytics
 
+<img width="1983" height="793" alt="Samsung Pakistan Retail Analytics Dashboard" src="https://github.com/user-attachments/assets/2724245e-c0c5-4be4-98f3-464b64f3b6b6" />
+
 ### SQL Server · Retail Analytics · Channel Performance · Customer Insights
 
 ![SQL Server](https://img.shields.io/badge/SQL_Server-T--SQL-CC2927?style=for-the-badge)
@@ -75,9 +77,7 @@ This project addresses those business questions through a structured **SQL Serve
 
 Below is the Samsung-themed executive dashboard for this project.
 
-> **Important:** If you are using GitHub's drag-and-drop image workflow, replace the placeholder image line below with GitHub's generated hosted image link after uploading the dashboard image in the README editor.
-
-![Samsung Pakistan Dashboard](Samsung_Dashboard.png)
+![Uploading Samsung Retail Sales Analytics Dashboard.png…]()
 
 ### Dashboard Sections
 
