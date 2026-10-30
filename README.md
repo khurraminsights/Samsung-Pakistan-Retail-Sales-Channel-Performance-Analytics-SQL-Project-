@@ -77,7 +77,7 @@ This project addresses those business questions through a structured **SQL Serve
 
 Below is the Samsung-themed executive dashboard for this project.
 
-![Uploading Samsung Retail Sales Analytics Dashboard.png…]()
+<img width="1697" height="927" alt="Samsung Retail Sales Analytics Dashboard" src="https://github.com/user-attachments/assets/ccedbd94-3220-446c-af06-510bcbed104e" />
 
 ### Dashboard Sections
 
